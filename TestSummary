@@ -1,1 +1,26 @@
-.
+# Test Summary Report
+
+Application:
+Sauce Demo
+
+Execution Date:
+June 2026
+
+Total Test Cases:
+40
+
+Passed:
+37
+
+Failed:
+3
+
+Blocked:
+0
+
+Defects Found:
+3
+
+Summary:
+Core functionality performed as expected.
+Several UI defects were identified and documented.
