@@ -1,1 +1,13 @@
-.
+# Test Scenarios
+
+## Login Module
+- Verify valid login with correct credentials
+- Verify invalid login shows error message
+- Verify locked user cannot log in
+
+## Product Module
+- Verify products load on page
+- Verify sorting functionality
+- Verify product details display correctly
+
+## Cart
