@@ -1,2 +1,18 @@
-# ecommerce-qa-portfolio
-Software QA portfolio demonstrating test planning, test case design, defect reporting, regression testing, and test execution.
+# E-Commerce QA Portfolio
+
+This repository demonstrates my manual software testing process using a public e-commerce application.
+
+Testing Activities:
+- Test Planning
+- Test Case Design
+- Functional Testing
+- Regression Testing
+- Defect Reporting
+- Test Summary Reporting
+
+Tools:
+- GitHub
+- Excel
+- Jira-style defect documentation
+
+Author: Jason Dixon
