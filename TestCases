@@ -25,3 +25,57 @@ Steps:
 
 Expected Result:
 Error message displayed
+
+Title:
+Verify error message for invalid username
+
+Precondition:
+User is on login page
+
+Steps:
+1. Enter invalid username
+2. Enter valid password
+3. Click Login
+
+Expected Result:
+Error message displayed
+
+Title:
+Verify that "Add to cart" CTA changes to "Remove" CTA once clicked
+
+Precondition:
+User is on products page
+
+Steps:
+1. Click on "Add to cart" CTA
+
+Expected Result:
+CTA changes to the red "Remove"
+
+Title:
+Verify "Add to cart" CTA adds correct amount of products to shopping cart CTA
+
+Precondition:
+User is on products page
+
+Steps:
+1. Navigate the products page
+2. Add 1-3 products to shopping cart
+3. Click on cart located in top right corner
+
+Expected Result:
+Shopping cart loads the correct amount of products selected
+
+Title:
+Verify "Remove" CTA reverts back to "Add to cart" CTA once clicked
+
+Precondition:
+User is on products page
+
+Steps:
+1. Click on "Remove" CTA
+
+Expected Result:
+CTA reverts back "Add to cart"
+
+
