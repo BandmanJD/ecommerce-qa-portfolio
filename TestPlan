@@ -1,1 +1,25 @@
-.
+Objective
+
+Verify critical functionality of the e-commerce application.
+
+Scope
+
+Features tested:
+
+* Login
+* Product Browsing
+* Cart
+* Checkout
+* Logout
+
+Test Types
+
+* Functional Testing
+* Regression Testing
+* UI Testing
+
+Environment
+
+* Chrome
+* Firefox
+* Windows 11
