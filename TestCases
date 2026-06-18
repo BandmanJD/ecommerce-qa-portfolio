@@ -1,5 +1,5 @@
 Title:
-Verify user can login with valid credentials
+Verify if user can login with valid credentials
 
 Precondition:
 User is on login page
@@ -13,7 +13,7 @@ Expected Result:
 User is redirected to Products page
 
 Title:
-Verify error message for invalid password
+Verify error message for an invalid password
 
 Precondition:
 User is on login page
@@ -27,7 +27,7 @@ Expected Result:
 Error message displayed
 
 Title:
-Verify error message for invalid username
+Verify error message for an invalid username
 
 Precondition:
 User is on login page
@@ -41,19 +41,19 @@ Expected Result:
 Error message displayed
 
 Title:
-Verify that "Add to cart" CTA changes to "Remove" CTA once clicked
+Verify that the "Add to cart" CTA changes to "Remove" CTA after being clicked
 
 Precondition:
 User is on products page
 
 Steps:
-1. Click on "Add to cart" CTA
+1. Click on the "Add to cart" CTA
 
 Expected Result:
 CTA changes to the red "Remove"
 
 Title:
-Verify "Add to cart" CTA adds correct amount of products to shopping cart CTA
+Verify the "Add to cart" CTA adds correct amount of products to shopping cart
 
 Precondition:
 User is on products page
@@ -64,10 +64,10 @@ Steps:
 3. Click on cart located in top right corner
 
 Expected Result:
-Shopping cart loads the correct amount of products selected
+ User should be redirected to a "your cart" page with the correct amount of products selected
 
 Title:
-Verify "Remove" CTA reverts back to "Add to cart" CTA once clicked
+Verify the "Remove" CTA changes to "Add to cart" CTA after being clicked
 
 Precondition:
 User is on products page
@@ -76,6 +76,101 @@ Steps:
 1. Click on "Remove" CTA
 
 Expected Result:
-CTA reverts back "Add to cart"
+CTA changes back to "Add to cart"
+
+Title:
+Verify the "Remove" CTA removes a product from "your cart" page
+
+Precondition:
+User has added product(s) to their cart
+
+Steps:
+1. Navigate the products page
+2. Add 1-3 products to shopping cart
+3. Click on cart located in top right corner
+4. Click on "Remove" CTA
+
+Expected Result:
+Product should be removed from cart
+
+Title:
+Verify "Continue Shopping" CTA directs user to "Products" page
+
+Precondition:
+User is in "your cart" page
+
+Steps:
+1. Locate the "Continue Shopping" cta at the bottom left of the page
+2. Click on cta
+
+Expected Result:
+User should be redirected to "Products" page
+
+Title:
+Verify "Checkout" CTA directs user to "Your Information" page
+
+Precondition:
+User is in "your cart" page with product(s)
+
+Steps:
+1. Locate the "Checkout" cta at the bottom right of the page
+2. Click on cta
+
+Expected Result:
+User should be redirected to "Your Information" page
+
+Title:
+Verify if user can enter valid credentials in "Your Information" page
+
+Precondition:
+User is in "Checkout: Your Information" page
+
+Steps:
+1. Enter your first name
+2. Enter your last name
+3. Enter your zip code
+
+Expected Result:
+User should be redirected to the "Checkout: Overview" page
+
+Title:
+Verify user cannot proceed to the "Checkout: Overview" page when the First Name field is blank
+
+Precondition:
+User is in "Checkout: Your Information" page
+
+Steps:
+1. Enter your last name
+2. Enter your zip code
+
+Expected Result:
+Message "Error: First Name is required" should show
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
