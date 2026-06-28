@@ -107,7 +107,7 @@ Steps:
 3. Select "Name (Z to A)"
 
 Expected Result:
-1. Producst are sorted alphabetically from to Z to A
+1. Products are sorted alphabetically from to Z to A
 
 Title:
 Verify Products Can Be Sorted by Price (Low to High)
@@ -188,7 +188,7 @@ Steps:
 2. Review layout and content
 
 Expected Result:
-1.Products display correctly
+1. Products display correctly
 2. No overlapping elements
 3. No horizontal scrolling
 4. Page remians usuable on mobile
@@ -262,8 +262,8 @@ Precondition:
 2. User is in "your cart" page with product(s)
 
 Steps:
-1. Locate the "Checkout" cta at the bottom right of the page
-2. Click on cta
+1. Locate the "Checkout" CTA at the bottom right of the page
+2. Click on CTA
 
 Expected Result:
 1. User should be redirected to "Your Information" page
@@ -287,7 +287,7 @@ Title:
 Verify user cannot proceed to the "Checkout: Overview" page when the First Name field is blank
 
 Precondition:
-User is in "Checkout: Your Information" page
+1. User is in "Checkout: Your Information" page
 
 Steps:
 1. Enter your last name
@@ -295,6 +295,154 @@ Steps:
 
 Expected Result:
 1. Message "Error: First Name is required" should show
+
+Title:
+Verify user cannot proceed to the "Checkout: Overview" page when the Last Name field is blank
+
+Precondition:
+1. User is in "Checkout: Your Information" page
+
+Steps:
+1. Enter your First name
+2. Enter your zip code
+
+Expected Result:
+1. Message "Error: Last Name is required" should show
+
+Title:
+Verify user cannot proceed to the "Checkout: Overview" page when the postal code field is blank
+
+Precondition:
+1. User is in "Checkout: Your Information" page
+
+Steps:
+1. Enter your First Name
+2. Enter your Last Name
+
+Expected Result:
+1. Message "Error: "Postal code is required" should show
+
+Title:
+Verify Checkout Overview page displays successfully
+
+Precondition:
+1. User has added at least one item to the cart and completed the Checkout:Your Information step
+
+Steps:
+1. Proceed to Checkout: Overview
+
+Expected Result:
+1. Checkout Overview page loads successfully with no errors
+
+Title:
+Verify selected products are displayed on Checkout Overview page
+
+Preconditon:
+1. User is on Checkout: Overview
+
+Steps:
+1. Review the list of products
+
+Expected Results:
+1. All products added to the cart are displayed with the correct name, quantity, description, and price
+
+Title:
+Verify payment information is displayed
+
+Precondition:
+1. User is on Checkout: Overview
+
+Steps:
+1. Locate the Payment Information section
+
+Expected Result:
+1. Payment Information is displayed according to the application's expected behavior
+
+Title:
+Verify shipping information is displayed
+
+Preconditions:
+1. User is on Checkout: Overview
+
+Steps:
+1. Locate thr Shipping Information section
+
+Expected Result:
+1. Shipping Information is displayed correctly
+
+Title:
+Verify item total is calculated correctly
+
+Precondition:
+1. User has multiple items in the cart
+
+Steps:
+1. Calculate the sum of all product prices
+2. Compare with the displayed item total
+
+Expect Result:
+1. The displayed Item Total matches the sum of the selected products
+
+Title:
+Verify tax amount is displayed
+
+Preconditon:
+1. User is on Checkout: Overview
+
+Steps:
+1. Review the Summary Information section
+
+Expected Result:
+1. Tax is displayed in the order summary
+
+Title:
+Verify total amount is calculated correctly
+
+Preconditon:
+1. User is on Checkout: Overview
+
+Steps:
+1. Add the Item Total and Tax
+2. Compare with the displayed Total
+
+Expected Result:
+1. Total equals Item total plus Tax
+
+Title:
+Verify Cancel button returns user to the Inventory page
+
+Preconditon:
+1. User is on Checkout: Overview
+
+Steps:
+1. Click Cancel
+
+Expected Result:
+1. User is returned to the Inventory page and the checkout process is canceled
+
+Title:
+Verify Finish button completes the order
+
+Preconditon:
+1. User is on Checkout: Overview
+
+Steps:
+1. Click Finish
+
+Expected Result:
+1. Order is completed successfully and the Checkout Complete page is displayed
+
+Title:
+Verify Checkout Overview page displays correctly on mobile viewport
+
+Precondition:
+1. User is on Checkout: Overview in Blisk using an Iphone viewport
+
+Steps:
+1. Review page layout and content
+
+Expected Result:
+1. All order information, buttons, and summary sections are displayed correctly with no overlapping elements or horizontal scrolling
 
 
 
