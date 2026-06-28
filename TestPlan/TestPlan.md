@@ -1,9 +1,9 @@
-Test Plan
+## Test Plan
 
 
 Purpose: This test plan outlines the strategy, scope and approach used to manually test the Sauce Demo e-commerce application.
 
-Skills demonstrated:
+## Skills demonstrated:
 
 * Requirment anaylsis
 * Test Strategy
@@ -16,7 +16,7 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 
 In Scope
 
-Features tested:
+## Features tested:
 
 * Login
 * Product Browsing
@@ -24,7 +24,7 @@ Features tested:
 * Checkout Process
 * Logout
 
-  Test Types
+  ## Test Types
   
 * Functional Testing
 * Regression Testing
@@ -32,7 +32,7 @@ Features tested:
 * Exploratory Testing
 * Responsive Testing
 
- Environment
+ ## Environment
 
 Operating System:
 * Windows 11
@@ -41,12 +41,12 @@ Browser's:
 * Google Chrome
 * Safari
 
-Responsive Testing:
+## Responsive Testing:
 
 * Blisk Browser
 * iPhone viewport
 
-Test Approach:
+## Test Approach:
 
 Manual testing was performed using predefined test cases. Core user workflows were validated through functional, regression, and exploratory testing. 
 Defects and observations were documented throughout execution
