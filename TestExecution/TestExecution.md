@@ -18,10 +18,10 @@ This document contains the execution results of manual test cases for the Sauce 
 
 | Metric | Value |
 |--------|------|
-| Total Test Cases Executed | |
-| Passed |  |
-| Failed |  |
-| Blocked |  |
+| Total Test Cases Executed |39|
+| Passed | 39 |
+| Failed | 0 |
+| Blocked | 0 |
 
 ---
 
