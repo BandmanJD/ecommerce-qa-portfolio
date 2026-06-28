@@ -11,8 +11,7 @@ Steps:
 Expected Result:
 1. User is redirected to Products page
 
-  Title:
-## Verify error message for an invalid password
+  ## Title: Verify error message for an invalid password
 
 Precondition:
 1. User is on login page
@@ -25,8 +24,7 @@ Steps:
 Expected Result:
 1. Error message displayed
 
-  Title:
-## Verify error message for an invalid username
+  ## Title: Verify error message for an invalid username
 
 Precondition:
 1. User is on login page
@@ -39,8 +37,7 @@ Steps:
 Expected Result:
 1. Error message displayed
 
-  Title: 
-## Verify Product Description is Displayed
+  ## Title: Verify Product Description is Displayed
 
 Precondition: 
 1. User is logged in
@@ -52,8 +49,7 @@ Steps:
 Expected Result:
 1. Each producty displays a product description
 
-Title: 
-Verify Product Price is Displayed
+## Title: Verify Product Price is Displayed
 
 Precondition:
 1. User is logged in
@@ -66,8 +62,7 @@ Expected Result:
 1. Each product displays a price
 2. Price format is consistent
 
-Title:
-Verify Product Image is Displayed
+## Title: Verify Product Image is Displayed
 
 Precondition:
 1. User is logged in
@@ -80,8 +75,7 @@ Expected Result:
 1. Product image is displayed for each product
 2. Images load without distortion or broken links
 
-Title:
-Verify Products Can be Sorted A to Z
+## Title: Verify Products Can be Sorted A to Z
 
 Preconditon:
 1. User is logged in
@@ -94,8 +88,7 @@ Steps:
 Expected Result:
 1. Products are sorted alphabetically from A to Z
 
-Title:
-Verify Products Can be Sorted Z to A
+## Title: Verify Products Can be Sorted Z to A
 
 Precondition:
 1. User is logged in
@@ -108,8 +101,7 @@ Steps:
 Expected Result:
 1. Products are sorted alphabetically from to Z to A
 
-Title:
-Verify Products Can Be Sorted by Price (Low to High)
+## Title: Verify Products Can Be Sorted by Price (Low to High)
 
 Preconditon:
 1. User is logged in
@@ -122,8 +114,7 @@ Steps:
 Expected Result:
 1. Products are sorted by ascending price
 
-Title:
-Verify Products Can Be Sorted by Price (High to Low)
+## Title: Verify Products Can Be Sorted by Price (High to Low)
 
 Preconditon:
 1. User is logged in
@@ -136,8 +127,7 @@ Steps:
 Expected Result:
 1. Products are sorted by decending price
 
-Title:
-Verify User Cna View Product Details
+## Title: Verify User Cna View Product Details
 
 Precondition:
 1. User is logged in
@@ -150,8 +140,7 @@ Expected Result:
 1. Product detail page opens
 2. Correct product information is displayed
 
-Title:
-Verify User can Return to Product page from product details
+## Title: Verify User can Return to Product page from product details
 
 Precondition:
 1. User is viewing a product detail page
@@ -162,8 +151,7 @@ Steps:
 Expected Result:
 1. User is returned to the product page
 
-Title:
-Verify that the "Add To Cart" button is displayed
+## Title: Verify that the "Add To Cart" button is displayed
 
 Precondition:
 1. User is logged in
@@ -175,8 +163,7 @@ Steps:
 Expected Result:
 1. "Add to Cart" button is visible for each product not already in the cart
 
-Title:
-Verify "Product" page on mobile viewport
+## Title: Verify "Product" page on mobile viewport
 
 Precondition:
 1. User is logged in
@@ -192,8 +179,7 @@ Expected Result:
 3. No horizontal scrolling
 4. Page remians usuable on mobile
 
-Title:
-Verify the "Add to cart" CTA changes to "Remove" CTA after being clicked
+## Title: Verify the "Add to cart" CTA changes to "Remove" CTA after being clicked
 
 Precondition:
 1. User is logged in
@@ -208,8 +194,7 @@ Expected Result:
 1. CTA changes to "Remove"
 
 
-Title:
-Verify the "Remove" CTA changes back to "Add to cart" CTA after being clicked
+## Title: Verify the "Remove" CTA changes back to "Add to cart" CTA after being clicked
 
 Precondition:
 1. User is logged in
@@ -223,8 +208,7 @@ Steps:
 Expected Result:
 1. CTA changes back to "Add to cart"
 
-Title:
-Verify the "Remove" CTA removes a product from "your cart" page
+## Title: Verify the "Remove" CTA removes a product from "your cart" page
 
 Precondition:
 1. User is logged in
@@ -239,8 +223,7 @@ Steps:
 Expected Result:
 1. Product should be removed from cart
 
-Title:
-Verify "Continue Shopping" CTA directs user to "Products" page
+## Title: Verify "Continue Shopping" CTA directs user to "Products" page
 
 Precondition:
 1. User is logged in
@@ -253,8 +236,7 @@ Steps:
 Expected Result:
 1. User should be redirected to "Products" page
 
-Title:
-Verify "Checkout" CTA directs user to "Your Information" page
+## Title: Verify "Checkout" CTA directs user to "Your Information" page
 
 Precondition:
 1. User is logged in
@@ -267,8 +249,7 @@ Steps:
 Expected Result:
 1. User should be redirected to "Your Information" page
 
-Title:
-Verify if user can enter valid credentials in "Your Information" page
+## Title: Verify if user can enter valid credentials in "Your Information" page
 
 Precondition:
 1. User is logged in
@@ -282,8 +263,7 @@ Steps:
 Expected Result:
 1. User should be redirected to the "Checkout: Overview" page
 
-Title:
-Verify user cannot proceed to the "Checkout: Overview" page when the First Name field is blank
+## Title: Verify user cannot proceed to the "Checkout: Overview" page when the First Name field is blank
 
 Precondition:
 1. User is in "Checkout: Your Information" page
@@ -295,8 +275,7 @@ Steps:
 Expected Result:
 1. Message "Error: First Name is required" should show
 
-Title:
-Verify user cannot proceed to the "Checkout: Overview" page when the Last Name field is blank
+## Title: Verify user cannot proceed to the "Checkout: Overview" page when the Last Name field is blank
 
 Precondition:
 1. User is in "Checkout: Your Information" page
@@ -308,8 +287,7 @@ Steps:
 Expected Result:
 1. Message "Error: Last Name is required" should show
 
-Title:
-Verify user cannot proceed to the "Checkout: Overview" page when the postal code field is blank
+## Title: Verify user cannot proceed to the "Checkout: Overview" page when the postal code field is blank
 
 Precondition:
 1. User is in "Checkout: Your Information" page
@@ -321,8 +299,7 @@ Steps:
 Expected Result:
 1. Message "Error: "Postal code is required" should show
 
-Title:
-Verify Checkout Overview page displays successfully
+## Title: Verify Checkout Overview page displays successfully
 
 Precondition:
 1. User has added at least one item to the cart and completed the Checkout:Your Information step
@@ -333,8 +310,7 @@ Steps:
 Expected Result:
 1. Checkout Overview page loads successfully with no errors
 
-Title:
-Verify selected products are displayed on Checkout Overview page
+## Title: Verify selected products are displayed on Checkout Overview page
 
 Preconditon:
 1. User is on Checkout: Overview
@@ -345,8 +321,7 @@ Steps:
 Expected Results:
 1. All products added to the cart are displayed with the correct name, quantity, description, and price
 
-Title:
-Verify payment information is displayed
+ ## Title: Verify payment information is displayed
 
 Precondition:
 1. User is on Checkout: Overview
@@ -357,8 +332,7 @@ Steps:
 Expected Result:
 1. Payment Information is displayed according to the application's expected behavior
 
-Title:
-Verify shipping information is displayed
+ ## Title: Verify shipping information is displayed
 
 Preconditions:
 1. User is on Checkout: Overview
@@ -369,8 +343,7 @@ Steps:
 Expected Result:
 1. Shipping Information is displayed correctly
 
-Title:
-Verify item total is calculated correctly
+## Title: Verify item total is calculated correctly
 
 Precondition:
 1. User has multiple items in the cart
@@ -382,8 +355,7 @@ Steps:
 Expect Result:
 1. The displayed Item Total matches the sum of the selected products
 
-Title:
-Verify tax amount is displayed
+## Title: Verify tax amount is displayed
 
 Preconditon:
 1. User is on Checkout: Overview
@@ -394,8 +366,7 @@ Steps:
 Expected Result:
 1. Tax is displayed in the order summary
 
-Title:
-Verify total amount is calculated correctly
+## Title: Verify total amount is calculated correctly
 
 Preconditon:
 1. User is on Checkout: Overview
@@ -407,8 +378,7 @@ Steps:
 Expected Result:
 1. Total equals Item total plus Tax
 
-Title:
-Verify Cancel button returns user to the Inventory page
+## Title: Verify Cancel button returns user to the Inventory page
 
 Preconditon:
 1. User is on Checkout: Overview
@@ -419,8 +389,7 @@ Steps:
 Expected Result:
 1. User is returned to the Inventory page and the checkout process is canceled
 
-Title:
-Verify Finish button completes the order
+ ## Title: Verify Finish button completes the order
 
 Preconditon:
 1. User is on Checkout: Overview
@@ -431,8 +400,7 @@ Steps:
 Expected Result:
 1. Order is completed successfully and the Checkout Complete page is displayed
 
-Title:
-Verify Checkout Overview page displays correctly on mobile viewport
+## Title: Verify Checkout Overview page displays correctly on mobile viewport
 
 Precondition:
 1. User is on Checkout: Overview in Blisk using an Iphone viewport
@@ -444,8 +412,7 @@ Expected Result:
 1. All order information, buttons, and summary sections are displayed correctly with no overlapping elements or horizontal scrolling
 
 
-Title:
-Verify user can log out successfully
+## Title: Verify user can log out successfully
 
 Precondition:
 1. User is logged in and on the Products page
@@ -457,8 +424,7 @@ Steps:
 Expected Result:
 1. Use is redirected to the Login page and the session is terminated
 
-Title:
-Verify user cannot access the Products page after logging out
+## Title: Verify user cannot access the Products page after logging out
 
 Precondition:
 1. User has logged out successfully
@@ -469,8 +435,7 @@ Steps:
 Expected Result:
 1. User is not able to access the Products page. User is redirected to the Login page or prompted to log in again
 
-Title:
-Verify protected pages cannot be accessed using the URL after logout
+## Title: Verify protected pages cannot be accessed using the URL after logout
 
 Precondition:
 1. User has logged out successfully
@@ -481,8 +446,7 @@ Steps:
 Expected Result:
 1. Access is denied and the user is redirected to Login page
 
-Title:
-Verify shopping cart contents persist after logut and subsequent login
+## Title: Verify shopping cart contents persist after logut and subsequent login
 
 Precondition:
 1. User has added one or more items to the cart
@@ -495,8 +459,7 @@ Steps:
 Expected Result:
 1. Cart contents are retained after logging back in.
 
-Title:
-Verify Logout option is available in the navigaiton menu
+## Title: Verify Logout option is available in the navigaiton menu
 
 Precondition:
 1. User is logged in
@@ -507,8 +470,7 @@ Steps:
 Expected Result:
 1. Logout option is visible and selectable
 
-Title:
-Verify logout functionality on mobile viewport
+## Title: Verify logout functionality on mobile viewport
 
 
 Precondition:
