@@ -10,11 +10,11 @@ Purpose: This test plan outlines the strategy, scope and approach used to manual
 * Test Planning
 * Scope Understanding
 
-Objective
+## Objective
 
 Verify that the core functionality of the Sauce Demo e-commerce application operates as expected by validating critcal user workflows, ensuring functional accuracy, and identifying defects that may impact the user's experience.
 
-In Scope
+## In Scope
 
 ## Features tested:
 
@@ -24,7 +24,7 @@ In Scope
 * Checkout Process
 * Logout
 
-  ## Test Types
+## Test Types
   
 * Functional Testing
 * Regression Testing
