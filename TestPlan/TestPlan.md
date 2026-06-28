@@ -14,7 +14,6 @@ Purpose: This test plan outlines the strategy, scope and approach used to manual
 
 Verify that the core functionality of the Sauce Demo e-commerce application operates as expected by validating critcal user workflows, ensuring functional accuracy, and identifying defects that may impact the user's experience.
 
-In Scope
 
 ## Features tested:
 
