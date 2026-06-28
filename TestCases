@@ -445,6 +445,90 @@ Expected Result:
 1. All order information, buttons, and summary sections are displayed correctly with no overlapping elements or horizontal scrolling
 
 
+Title:
+Verify user can log out successfully
+
+Precondition:
+1. User is logged in and on the Products page
+
+Steps:
+1. Open the navigation menu in the top left corner
+2. Click Logout
+
+Expected Result:
+1. Use is redirected to the Login page and the session is terminated
+
+Title:
+Verify user cannot access the Products page after logging out
+
+Precondition:
+1. User has logged out successfully
+
+Steps:
+1. Click the browser's back button
+
+Expected Result:
+1. User is not able to access the Products page. User is redirected to the Login page or prompted to log in again
+
+Title:
+Verify protected pages cannot be accessed using the URL after logout
+
+Precondition:
+1. User has logged out successfully
+
+Steps:
+1. Enter thr Products page URL directly into the browser's address bar
+
+Expected Result:
+1. Access is denied and the user is redirected to Login page
+
+Title:
+Verify shopping cart contents persist after logut and subsequent login
+
+Precondition:
+1. User has added one or more items to the cart
+
+Steps:
+1. Add products to the cart
+2. Log out
+3. Log back in with the same account
+
+Expected Result:
+1. Cart contents are retained after logging back in.
+
+Title:
+Verify Logout option is available in the navigaiton menu
+
+Precondition:
+1. User is logged in
+
+Steps:
+1. Open the navigation menu
+
+Expected Result:
+1. Logout option is visible and selectable
+
+Title:
+Verify logout functionality on mobile viewport
+
+
+Precondition:
+1. User is logged in using Blisk with an iPhone viewport
+
+Steps:
+1. Open the navigation menu
+2. Tap Logout
+
+Expected Result:
+1. User is logged out successfully and redirected to the Login page. Navigation menu functions correctly on the mobile viewport
+
+
+
+
+
+
+
+
 
 
 
