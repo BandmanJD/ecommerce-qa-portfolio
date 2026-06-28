@@ -1,5 +1,5 @@
-## Title:
-Verify if user can login with valid credentials
+ Title:
+## Verify if user can login with valid credentials
 
 Precondition:
 1. User is on login page
@@ -12,8 +12,8 @@ Steps:
 Expected Result:
 1. User is redirected to Products page
 
-## Title:
-Verify error message for an invalid password
+ Title:
+## Verify error message for an invalid password
 
 Precondition:
 1. User is on login page
@@ -26,8 +26,8 @@ Steps:
 Expected Result:
 1. Error message displayed
 
-## Title:
-Verify error message for an invalid username
+ Title:
+## Verify error message for an invalid username
 
 Precondition:
 1. User is on login page
@@ -40,8 +40,8 @@ Steps:
 Expected Result:
 1. Error message displayed
 
-## Title: 
-Verify Product Description is Displayed
+ Title: 
+## Verify Product Description is Displayed
 
 Precondition: 
 1. User is logged in
