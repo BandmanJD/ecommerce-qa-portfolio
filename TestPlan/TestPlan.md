@@ -1,8 +1,10 @@
 Test Plan
 
+
 Purpose: This test plan outlines the strategy, scope and approach used to manually test the Sauce Demo e-commerce application.
 
 Skills demonstrated:
+
 * Requirment anaylsis
 * Test Strategy
 * Test Planning
