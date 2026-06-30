@@ -71,7 +71,7 @@ This issue affects UI consistency and visual presentation on mobile devices but 
 
 ### Reproduction
 The issue is reproducible in:
-- Blisk (iPhone 15 viewport simulation)
+- Blisk (iPhone 16 viewport simulation)
 - Mobile Simulator - Responsive Testing Tool (Chrome Extention) (validated)
 
 ### Linked Test Case
