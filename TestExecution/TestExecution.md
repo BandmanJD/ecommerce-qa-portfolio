@@ -30,12 +30,15 @@ This document contains the execution results of manual test cases for the Sauce 
 Test cases were executed manually using Google Chrome (Chromium-based browser) on Windows 11.
 
 Responsive and cross-device validation was performed using:
-- Blisk (primary tool for simultaneous desktop and mobile viewport simulation)
-- Mobile Simulator - Responsive Testing Tool (Chrome Extension for device profile emulation)
+
+- Blisk (primary tool for simultaneous desktop and mobile viewport simulation, including iOS mobile viewport simulation)
+- Mobile Simulator - Responsive Testing Tool (Chrome Extension for additional device profile emulation)
+
+Blisk allowed simultaneous validation of desktop (Chromium) and mobile iOS viewport behavior within the same testing session, improving efficiency in identifying responsive UI issues.
 
 Each test case was validated against expected results defined in the Test Cases document. Any discrepancies were investigated and documented as defects where applicable.
 
-The Inventory module UI defect (BUG-001) was identified during responsive testing on mobile viewport simulation and verified across multiple tools.
+The Inventory module UI defect (BUG-001) was identified during responsive testing on mobile viewport simulation and verified across multiple tools (Blisk and Mobile Simulator), confirming reproducibility across environments.
 
 ---
 
