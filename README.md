@@ -14,6 +14,7 @@ Tools:
 - GitHub
 - Excel
 - Jira-style defect documentation
+- Blisk
 
 ## Testing Approach
 
