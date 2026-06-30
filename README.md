@@ -71,13 +71,13 @@ This project was created to demonstrate hands-on manual QA skills, including str
 
 ## Repository Structure
 
-- ecommerce-qa-portfolio/
+- ecommerce-qa-portfolio
 
-- TestPlan/
-- TestScenarios/
-- TestCases/
-- TestExecution/
-- BugReports/
-- Evidence/
-- RegressionSuite/
-- TestSummary/
+- TestPlan
+- TestScenarios
+- TestCases
+- TestExecution
+- BugReports
+- Evidence
+- RegressionSuite
+- TestSummary
