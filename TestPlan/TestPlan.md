@@ -36,7 +36,7 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 - Browser: Google Chrome (Chromium engine)
 - Primary Tool: Blisk (Responsive testing / multi-viewport simulation)
 - Additional Tool: Mobile Simulator - Responsive Testing Tool (Chrome Extension)
-- Device Profile: iPhone 14 / iPhone 15 (simulated)
+- Device Profile: iPhone 14 / iPhone 16 (simulated)
 - Viewport: 393 × 852 (CSS pixels)
 - OS: Windows 11
 
