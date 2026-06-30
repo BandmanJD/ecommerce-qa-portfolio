@@ -7,20 +7,20 @@ Execution Date:
 June 2026
 
 Total Test Cases:
-40
+39
 
 Passed:
-37
+38
 
 Failed:
-3
+1
 
 Blocked:
 0
 
 Defects Found:
-3
+1
 
 Summary:
 Core functionality performed as expected.
-Several UI defects were identified and documented.
+One low prority UI defect was identified and documented.
