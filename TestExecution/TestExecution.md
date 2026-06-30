@@ -80,4 +80,8 @@ The issue is reproducible in:
 
 ## Conclusion
 
-The Sauce Demo application passed all executed test cases. Core functionality is stable and behaves as expected under tested conditions.
+The Sauce Demo application passed the majority of executed test cases. Core functionality is stable and behaves as expected under tested conditions.
+
+One low-severity UI defect was identified in the Inventory module affecting mobile layout consistency. This does not impact functionality but may affect user experience on smaller viewports.
+
+
