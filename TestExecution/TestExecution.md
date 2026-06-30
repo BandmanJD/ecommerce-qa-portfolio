@@ -47,7 +47,7 @@ Blisk was used for responsive validation where applicable.
 
 ### BUG-001 - UI Layout Issue on Product Cards (Mobile Viewport)
 
-- **Test Case ID:** TC_INV_015  
+- **Test Case ID:** TC_INV_0011  
 - **Module:** Inventory  
 - **Severity:** Low  
 - **Priority:** Low  
@@ -63,10 +63,10 @@ This issue affects UI consistency and visual presentation on mobile devices but 
 ### Reproduction
 The issue is reproducible in:
 - Blisk (iPhone 15 viewport simulation)
-- Chrome DevTools mobile emulation (validated)
+- Mobile Simulator - Responsive Testing Tool (Chrome Extention) (validated)
 
 ### Linked Test Case
-- TC_INV_015 → Failed
+- TC_INV_0011 → Failed
 
 ---
 
