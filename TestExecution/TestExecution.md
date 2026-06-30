@@ -27,9 +27,15 @@ This document contains the execution results of manual test cases for the Sauce 
 
 ## Execution Approach
 
-Test cases were executed manually using Chrome browser and blisk on Windows 11. Each test case was validated against expected results defined in the Test Cases document. Any discrepancies were to be logged as defects; however, no critical defects were observed during execution.
+Test cases were executed manually using Google Chrome (Chromium-based browser) on Windows 11.
 
-Blisk was used for responsive validation where applicable.
+Responsive and cross-device validation was performed using:
+- Blisk (primary tool for simultaneous desktop and mobile viewport simulation)
+- Mobile Simulator - Responsive Testing Tool (Chrome Extension for device profile emulation)
+
+Each test case was validated against expected results defined in the Test Cases document. Any discrepancies were investigated and documented as defects where applicable.
+
+The Inventory module UI defect (BUG-001) was identified during responsive testing on mobile viewport simulation and verified across multiple tools.
 
 ---
 
