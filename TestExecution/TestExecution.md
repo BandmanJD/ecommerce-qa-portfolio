@@ -19,8 +19,8 @@ This document contains the execution results of manual test cases for the Sauce 
 | Metric | Value |
 |--------|------|
 | Total Test Cases Executed |39|
-| Passed | 39 |
-| Failed | 0 |
+| Passed | 38 |
+| Failed | 1 |
 | Blocked | 0 |
 
 ---
@@ -40,6 +40,33 @@ Blisk was used for responsive validation where applicable.
 - Cart
 - Checkout
 - Logout
+
+---
+
+## Defects Identified
+
+### BUG-001 - UI Layout Issue on Product Cards (Mobile Viewport)
+
+- **Test Case ID:** TC_INV_015  
+- **Module:** Inventory  
+- **Severity:** Low  
+- **Priority:** Low  
+- **Environment:** Chrome (Chromium) + Blisk (iPhone 15 viewport)  
+- **Status:** Open  
+
+### Description
+Excessive vertical spacing was observed between the product description and the price/action button on mobile viewport layouts.
+
+### Impact
+This issue affects UI consistency and visual presentation on mobile devices but does not impact core functionality.
+
+### Reproduction
+The issue is reproducible in:
+- Blisk (iPhone 15 viewport simulation)
+- Chrome DevTools mobile emulation (validated)
+
+### Linked Test Case
+- TC_INV_015 → Failed
 
 ---
 
