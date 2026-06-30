@@ -36,8 +36,6 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 Operating System:
 * Windows 11
 
-## Test Environment
-
 - Browser Engine: Chromium (Chrome-based)
 - Primary Tool: Blisk (Responsive + Desktop simultaneous view)
 - Testing Mode: Parallel device simulation (desktop + iPhone viewport)
