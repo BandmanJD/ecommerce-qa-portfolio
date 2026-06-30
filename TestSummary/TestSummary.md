@@ -29,3 +29,11 @@ Core application functionality performed as expected during manual testing. One 
 ## Release Recommendation
 
 Based on the executed test cases, the application is considered functionally stable. The identified UI defect is low severity and does not impact core business functionality or user workflows.
+
+**Related Documentation**
+
+- Test Plan
+- Test Scenarios
+- Test Cases
+- Test Execution Report
+- Bug Reports
