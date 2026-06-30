@@ -30,7 +30,7 @@ The following test cases represent the application's core business workflows. Th
 | TC_LOG_003 | Login | Verify locked-out user cannot log in | High |
 | TC_INV_001 | Inventory | Verify products load successfully | High |
 | TC_INV_002 | Inventory | Verify product sorting functionality | Medium |
-| TC_INV_015 | Inventory | Verify product card layout displays correctly on mobile viewport | Medium |
+| TC_INV_012 | Inventory | Verify product card layout displays correctly on mobile viewport | Medium |
 | TC_CART_001 | Cart | Verify item can be added to cart | High |
 | TC_CART_002 | Cart | Verify item can be removed from cart | High |
 | TC_CHK_001 | Checkout | Verify checkout information page loads | High |
