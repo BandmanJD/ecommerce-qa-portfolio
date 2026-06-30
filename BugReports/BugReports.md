@@ -88,7 +88,7 @@ Open
 
 The issue was reproduced in:
 - Blisk (iPhone viewport)
-- Chrome DevTools mobile device emulation
+- Mobile Simulator - Responsive Testing Tool
 
 ### Notes
 
