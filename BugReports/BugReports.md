@@ -55,9 +55,11 @@ Low
 ### Environment
 
 - Application: Sauce Demo
-- Browser: Chromium (Blisk)
-- Validation: Mobile Simulator - Responsive Testing Tool
-- Device: iPhone (393 × 852 viewport)
+- Browser: Google Chrome (Chromium - based)
+- Primary Tool: Blisk
+- Additonal Tool: Mobile Simulator - Responsive Testing Tool
+- Devices: iPhone 16 & iPhone 14 Pro
+- Viewport: 393 × 852 & 390 × 844 (CSS pixels)
 - OS: Windows 11
 
 ### Preconditions
