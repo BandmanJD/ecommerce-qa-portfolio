@@ -50,7 +50,7 @@ Test cases are organized across the following modules:
 ## Test Case File
 All detailed test cases are documented in:
 
-📄 `TestExecution.xlsx`
+📄 `TestCases.xlsx`
 
 This file includes:
 - Preconditions
