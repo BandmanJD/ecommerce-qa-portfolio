@@ -60,7 +60,7 @@ The Inventory module UI defect (BUG-001) was identified during responsive testin
 - **Module:** Inventory  
 - **Severity:** Low  
 - **Priority:** Low  
-- **Environment:** Chrome (Chromium) + Blisk (iPhone 15 viewport)  
+- **Environment:** Chrome (Chromium) + Blisk (iPhone 16 viewport)  
 - **Status:** Open  
 
 ### Description
