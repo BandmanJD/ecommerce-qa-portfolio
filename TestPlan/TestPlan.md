@@ -37,7 +37,7 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 - Primary Tool: Blisk (Responsive testing / multi-viewport simulation)
 - Additional Tool: Mobile Simulator - Responsive Testing Tool (Chrome Extension)
 - Device Profile: iPhone 14 / iPhone 16 (simulated)
-- Viewport: 393 × 852 (CSS pixels)
+- Viewport: 390 × 844 (CSS pixels) 393 x 852 (CSS pixels)
 - OS: Windows 11
 
 ## Responsive Testing:
