@@ -16,4 +16,5 @@ Tools:
 - Jira-style defect documentation
 - Blisk
 
-Author: Jason Dixon
+
+## Author: Jason Dixon
