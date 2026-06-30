@@ -89,8 +89,8 @@ Open
 ### Evidence
 
 The issue was reproduced in:
-- Blisk (iPhone viewport)
-- Mobile Simulator - Responsive Testing Tool
+- Blisk (iPhone 16 viewport)
+- Mobile Simulator - Responsive Testing Tool (iPhone 14 Pro viewport)
 
 ### Notes
 
