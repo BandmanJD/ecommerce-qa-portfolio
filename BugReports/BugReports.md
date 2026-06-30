@@ -56,7 +56,7 @@ Low
 
 - Application: Sauce Demo
 - Browser: Chromium (Blisk)
-- Validation: Chrome DevTools Device Emulation
+- Validation: Mobile Simulator - Responsive Testing Tool
 - Device: iPhone (393 × 852 viewport)
 - OS: Windows 11
 
