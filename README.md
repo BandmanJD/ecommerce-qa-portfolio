@@ -66,3 +66,18 @@ Manual QA Tester | E-Commerce Testing Portfolio Project
 ## Purpose
 
 This project was created to demonstrate hands-on manual QA skills, including structured test design, execution, defect reporting, and regression planning using industry-standard documentation practices.
+
+---
+
+## Repository Structure
+
+ecommerce-qa-portfolio/
+
+TestPlan/
+TestScenarios/
+TestCases/
+TestExecution/
+BugReports/
+Evidence/
+RegressionSuite/
+TestSummary/
