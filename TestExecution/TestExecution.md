@@ -32,7 +32,7 @@ Test cases were executed manually using Google Chrome (Chromium-based browser) o
 Responsive and cross-device validation was performed using:
 
 - Blisk (primary tool for simultaneous desktop and mobile viewport simulation, including iOS mobile viewport simulation)
-- Mobile Simulator - Responsive Testing Tool (Chrome Extension for additional device profile emulation)
+- Mobile Simulator - Responsive Testing Tool (Chrome Extension using the iPhone 14 Pro device profile – 390 × 844 viewport)
 
 Blisk allowed simultaneous validation of desktop (Chromium) and mobile iOS viewport behavior within the same testing session, improving efficiency in identifying responsive UI issues.
 
