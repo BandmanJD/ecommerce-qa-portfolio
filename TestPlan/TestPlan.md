@@ -36,9 +36,9 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 Operating System:
 * Windows 11
 
-Browser's:
-* Google Chrome
-* Safari
+- Browser: Chromium (Chrome-based)
+- Responsive Tool: Blisk (Primary)
+- Optional Cross-browser: iOS Safari (if required)
 
 ## Responsive Testing:
 
