@@ -57,4 +57,4 @@ This document outlines high-level test scenarios used to validate the core funct
 
 - Verify user can log out successfully from navigation menu
 - Verify user is redirected to login page after logout
-- Verify session is cleared after logout
+- Verify session is retained after logout
