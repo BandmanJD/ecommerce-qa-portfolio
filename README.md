@@ -16,9 +16,4 @@ Tools:
 - Jira-style defect documentation
 - Blisk
 
-## Testing Approach
-
-Testing was performed using a simultaneous multi-viewport setup via Blisk, allowing parallel validation of desktop and mobile layouts within a Chromium-based browser environment.
-
-
 Author: Jason Dixon
