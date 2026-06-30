@@ -33,12 +33,12 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 
  ## Environment
 
-Operating System:
-* Windows 11
-
-- Browser Engine: Chromium (Chrome-based)
-- Primary Tool: Blisk (Responsive + Desktop simultaneous view)
-- Testing Mode: Parallel device simulation (desktop + iPhone viewport)
+- Browser: Google Chrome (Chromium engine)
+- Primary Tool: Blisk (Responsive testing / multi-viewport simulation)
+- Additional Tool: Mobile Simulator - Responsive Testing Tool (Chrome Extension)
+- Device Profile: iPhone 14 / iPhone 15 (simulated)
+- Viewport: 393 × 852 (CSS pixels)
+- OS: Windows 11
 
 ## Responsive Testing:
 
