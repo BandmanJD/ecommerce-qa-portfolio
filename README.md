@@ -22,3 +22,7 @@ Testing was performed using a simultaneous multi-viewport setup via Blisk, allow
 
 
 Author: Jason Dixon
+
+Environment Used:
+- Blisk (Desktop + iPhone 15 viewport simultaneously)
+- Chrome DevTools (validation)
