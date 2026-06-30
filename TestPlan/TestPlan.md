@@ -48,4 +48,4 @@ Verify that the core functionality of the Sauce Demo e-commerce application oper
 ## Test Approach:
 
 Manual testing was performed using predefined test cases. Core user workflows were validated through functional, regression, and exploratory testing. 
-Defects and observations were documented throughout execution
+Defects and observations were documented throughout execution. Testing was performed using a simultaneous multi-viewport setup via Blisk, allowing parallel validation of desktop and mobile layouts within a Chromium-based browser environment.
