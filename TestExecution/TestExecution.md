@@ -73,8 +73,8 @@ The issue is reproducible in:
 ## Observations
 
 - All core user flows functioned as expected
-- UI rendered correctly across tested views
-- No functional defects identified during execution
+- UI rendered correctly across most tested views
+- 1 low severity UI defect identified in mobile viewport (Inventory module)
 
 ---
 
